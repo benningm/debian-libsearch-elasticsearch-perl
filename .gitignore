@@ -5,3 +5,4 @@ blib
 debian/*.log
 pm_to_blib
 .pc
+debian/libsearch-elasticsearch-perl

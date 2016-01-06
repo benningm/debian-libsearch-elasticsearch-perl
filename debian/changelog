@@ -1,4 +1,4 @@
-libsearch-elasticsearch-perl (2.00-1) stable; urgency=low
+libsearch-elasticsearch-perl (2.00-1) jessie; urgency=low
 
   * Initial Release.
 
