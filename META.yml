@@ -1,0 +1,60 @@
+---
+abstract: 'The official client for Elasticsearch'
+author:
+  - 'Clinton Gormley <drtech@cpan.org>'
+build_requires:
+  IO::Socket::SSL: '0'
+  Log::Any::Adapter::Callback: '0'
+  Test::Deep: '0'
+  Test::Exception: '0'
+  Test::More: '0.98'
+  lib: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.041, CPAN::Meta::Converter version 2.150001'
+license: apache
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Search-Elasticsearch
+recommends:
+  URI::Escape::XS: '0'
+requires:
+  Any::URI::Escape: '0'
+  Data::Dumper: '0'
+  Devel::GlobalDestruction: '0'
+  Encode: '0'
+  File::Temp: '0'
+  HTTP::Headers: '0'
+  HTTP::Request: '0'
+  HTTP::Tiny: '0.043'
+  Hijk: '0.20'
+  IO::Select: '0'
+  IO::Socket: '0'
+  IO::Uncompress::Inflate: '0'
+  JSON::MaybeXS: '1.002002'
+  JSON::PP: '0'
+  LWP::UserAgent: '0'
+  List::Util: '0'
+  Log::Any: '1.02'
+  Log::Any::Adapter: '0'
+  MIME::Base64: '0'
+  Module::Runtime: '0'
+  Moo: '1.003'
+  Moo::Role: '0'
+  POSIX: '0'
+  Package::Stash: '0.34'
+  Scalar::Util: '0'
+  Sub::Exporter: '0'
+  Time::HiRes: '0'
+  Try::Tiny: '0'
+  URI: '0'
+  namespace::clean: '0'
+  overload: '0'
+  strict: '0'
+  warnings: '0'
+resources:
+  bugtracker: https://github.com/elastic/elasticsearch-perl/issues
+  repository: git://github.com/elastic/elasticsearch-perl.git
+version: '2.00'
