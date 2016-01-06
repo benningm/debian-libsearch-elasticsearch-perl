@@ -2,15 +2,17 @@ Source: libsearch-elasticsearch-perl
 Section: perl
 Priority: optional
 Maintainer: Markus Benning <ich@markusbenning.de>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), libtest-deep-perl, libtest-exception-perl, libio-socket-ssl-perl, libmoo-perl, libnamespace-clean-perl, libtry-tiny-perl, liburi-perl, libjson-perl, libjson-maybexs-perl, liblog-any-perl (>= 1.02), libany-uri-escape-perl, libwww-perl, libhijk-perl
 Build-Depends-Indep: perl
 Standards-Version: 3.9.6
 Homepage: https://metacpan.org/release/Search-Elasticsearch
 
 Package: libsearch-elasticsearch-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, libio-socket-ssl-perl, libmoo-perl, libnamespace-clean-perl, libtry-tiny-perl, liburi-perl, libjson-perl, libjson-maybexs-perl, liblog-any-perl (>= 1.02), libany-uri-escape-perl, libwww-perl, libhijk-perl
 Description: The official client for Elasticsearch
- (no description was found)
- .
- This description was automagically extracted from the module by dh-make-perl.
+ Search::Elasticsearch is the official Perl client for Elasticsearch, supported
+ by elasticsearch.com. Elasticsearch itself is a flexible and powerful open
+ source, distributed real-time search and analytics engine for the cloud. You
+ can read more about it on elastic.co.
+
