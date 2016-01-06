@@ -1,0 +1,5 @@
+libsearch-elasticsearch-perl (2.00-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Markus Benning <ich@markusbenning.de>  Wed, 6 Jan 2016 11:38:42 +0100

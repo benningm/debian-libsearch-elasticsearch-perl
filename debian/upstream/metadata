@@ -1,0 +1,7 @@
+---
+Archive: CPAN
+Bug-Database: https://github.com/elastic/elasticsearch-perl/issues
+Contact: Clinton Gormley <drtech@cpan.org>
+Name: Search-Elasticsearch
+Repository: git://github.com/elastic/elasticsearch-perl.git
+Repository-Browse: https://github.com/elastic/elasticsearch-perl
